@@ -1,66 +1,61 @@
-/* Below line is write to use Google font online */
-@import "http://fonts.googleapis.com/css?family=Ubuntu";
-div#main{
-width:830px;
-height:650px;
-margin:0 auto;
+body {
+  box-shadow:0 0 15px;
+  border-radius:6px;
+  border:1px solid #551a8b;
+  font-family:Courier,sans-serif;
+  border-style:double;
+  padding: 30px;
+}
 
-font-family:'Ubuntu',sans-serif;
+div{
+  background-color:#e6e6fa;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align:center;
+  
 }
-div#form_sample{
+div#main{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+div#qs{
 text-align:center;
-border:1px solid #551a8b;
-width:500px;
-padding:20px;
-margin-top:20px;
-background-color:#e6e6fa;
-box-shadow:0 0 15px;
-border-radius:6px;
-float:left;
+  padding-bottom: 30px;
 }
-#main h1{
-//margin-top:40px;
+
+div#q{
+  padding-bottom:20px;
 }
-hr{
-//margin-top:-5px;
+div#bottom{
+  padding-bottom:20px;
 }
-label{
-float:left;
-font-size:8px;
+button {
+  padding: 2px 10px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0047ab;
+  border: none;
+  border-radius: 15px;
 }
-input[type="text"]{
-width:80%;
-//margin-top:5px;
-height:20px;
-//margin-bottom:15px;
-padding:5px;
-border:1px solid #551a8b;
+
+p{
+  font-size: 25px;
 }
-textarea{
-width:80%;
-border:1px solid #551a8b;
-padding:10px;
-//margin-bottom:25px;
-//margin-top:10px;
-height:100px;
-resize:none;
+input{
+  font-size: 25px;
 }
-input[type="submit"]{
-width:50%;
-padding:10px 45px;
-margin-top:20px;
-background-color:#DD1923;
-border:none;
-color:#fff;
-font-size:18px;
-font-weight:700;
-cursor:pointer;
-font-family:'Ubuntu','times new roman';
-}
-/* -------------------------------------
-CSS for Sidebar (optional)
----------------------------------------- */
-div#fugo{
-float:right;
+.button:hover {background-color: #add8e6}
+
+.button:active {
+  background-color: #3e8e41;;
 }
 

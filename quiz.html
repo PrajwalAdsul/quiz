@@ -1,37 +1,39 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <title> Quiz Ongoing </title>
+<link href="quiz.css" rel="stylesheet">
 <script src = "questions.js"></script>
 </head>
 <body onload = "conduct_test();">
 
-<div>
-here are the questions:
+<div id='main'>
+Here are the questions:
 </div>
 
 
-<div>
-<button id ="q1" > 1 </button>
-<button id ="q2" > 2 </button>
-<button id ="q3" > 3 </button>
-<button id ="q4" > 4 </button>
-<button id ="q5" > 5 </button>
+<div id='qs'>
+<button class= 'button' id ="q1" > 1 </button>
+<button class= 'button' id ="q2" > 2 </button>
+<button class= 'button' id ="q3" > 3 </button>
+<button class= 'button'  id ="q4" > 4 </button>
+<button class= 'button' id ="q5" > 5 </button>
 </div>
-<div>
+<div id = 'q'>
 <p id = "question"> </p>
-<input id="r1" type="radio" name="option" value="1" checked><label id = "option1">nikita2</label><br>
-<input id="r2" type="radio" name="option" value="2"><label id = "option2">nikita2</label><br>
-<input id="r3" type="radio" name="option" value="3"><label id = "option3">nikita2</label><br>
-<input id="r4" type="radio" name="option" value="4"><label id = "option4">nikita2</label><br>
+<label class="radio-inline" id = "option1"> <input id="r1" type="radio" name="option" value="1" checked>nikita2</label>
+<label class="radio-inline" id = "option2"><input id="r2" type="radio" name="option" value="2">nikita2</label>
+<label class="radio-inline" id = "option3"><input id="r3" type="radio" name="option" value="3">nikita2</label>
+<label class="radio-inline" id = "option4"><input id="r4" type="radio" name="option" value="4">nikita2</label>
+  <br>
 </div>
-<div>
-<button id ="next" > Next </button>
+<div id = 'bottom'>
+<button class= 'button' id ="next" > Next </button>
 <br>
 <br>
 
-<button onclick = "location.href ='logout.html';" > logout </button>
-<button onclick = "location.href ='submit.html';" > SUBMIT </button>
+<button class= 'button' onclick = "location.href ='logout.html';" > logout </button>
+<button class= 'button' onclick = "location.href ='submit.html';" > SUBMIT </button>
 </div>
 
 </body>

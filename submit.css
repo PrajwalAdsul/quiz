@@ -1,8 +1,11 @@
 body {
     font-family: Georgia;
     padding: 30px;
-    text-align: center;
-    background-color: #b19cd9; 
+    text-align: center; 
 }
+
+h1.a{border-style: double;
+    padding: 50px;
+    background-color: #b19cd9}
 
 
