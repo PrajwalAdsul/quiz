@@ -1,0 +1,15 @@
+a web server is "a computer system that processes requests via HTTP, the basic network protocol used to distribute information on the World Wide Web."
+
+Name: 				History 							Technology 						Features
+Apache HTTP Server	1995								Linux, OS X and Windows			Good documentation
+					Apache powers 52% of all websites	modular architecture			integrated support from other projects
+														extra modules for more features
+														
+NGINX				2002 start, released 2004			C10K problem					light resource utilization, scalability
+					30% of all websites					asynchronous event-driven architecture
+										
+Lighttpd			pronounced lightly					low memory footprint			FastCGI, SCGI, Auth, Output-compression, URL-rewriting
+					2003								small CPU load
+					0.1% of all websites				speed optimizations
+														event-driven architecture
+														many parallel connections			

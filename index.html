@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WST assignment 1</title> <!-- Include CSS file here -->
+	<link href="form.css" rel="stylesheet">
+</head>
+
+<body onload="firstfocus();" >
+<div id="main">
+	
+	<div id="form_sample">
+	<form action = "insert.php", method = "post", name = "registration">
+		<h2> Contact Form </h2>
+		<hr>
+		
+		<p id = "para_id_1" name = "nikita" align = "left"> Name: <font color = "red" size = 2>*required field</font> </p> 
+		<input type= "text", name = "dname", onblur="userid_validation(5,12);"> <br>
+		
+		<p id = "para_id_2" align = "left"> Email: <font color = "red" size = 2>*required field</font> </p>
+		<input type= "text", name = "demail", onblur="ValidateEmail();"> <br>
+		
+		
+		<p id = "para_id_4" align = "left"> Mobile Number: <font color = "red" size = 2>*required field</font> </p>
+		<input type= "text", name = "dnum", onblur="mob_num_validation();"> <br>
+		
+		<p id = "para_id_3" align = "left"> Comments: </p>
+		<textarea type= "text", name = "dmessage"> </textarea><br>
+		
+		<input type= "submit", name = "dsubmit", value = "Submit", onclick = "return CheckAll();"> <br>
+		
+	</form>
+</div> <!-- Include JS file here -->
+	<script src = "form.js"></script>
+	
+</div>
+</body>
+</html>
